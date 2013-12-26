@@ -1,0 +1,1225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "EcuControl5.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "EcuControl5"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "EcuControl5.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "g:\EcuControl 5.6\EcuControl5.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "H:\EcuControl 5.6\EcuControl5.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "H:\EcuControl 5.6\frmAbout.frm"
+        NewPath = "g:\EcuControl 5.6\EcuControl5.NET\frmAbout.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    />
+    <File
+        OldPath = "H:\EcuControl 5.6\frmDataLog.frm"
+        NewPath = "g:\EcuControl 5.6\EcuControl5.NET\frmDataLog.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "(Layout)" >
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "frmDataLog"
+                ObjectType = "Form"
+                PME = "AutoRedraw"
+            >Form property frmDataLog.AutoRedraw was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_chkSensor_1"
+                ObjectType = "CheckBox"
+                PME = "MaskColor"
+            >CheckBox property _chkSensor_1.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_chkSensor_2"
+                ObjectType = "CheckBox"
+                PME = "MaskColor"
+            >CheckBox property _chkSensor_2.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_chkSensor_3"
+                ObjectType = "CheckBox"
+                PME = "MaskColor"
+            >CheckBox property _chkSensor_3.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_chkSensor_4"
+                ObjectType = "CheckBox"
+                PME = "MaskColor"
+            >CheckBox property _chkSensor_4.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_chkSensor_5"
+                ObjectType = "CheckBox"
+                PME = "MaskColor"
+            >CheckBox property _chkSensor_5.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_chkSensor_6"
+                ObjectType = "CheckBox"
+                PME = "MaskColor"
+            >CheckBox property _chkSensor_6.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_chkSensor_7"
+                ObjectType = "CheckBox"
+                PME = "MaskColor"
+            >CheckBox property _chkSensor_7.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_chkSensor_8"
+                ObjectType = "CheckBox"
+                PME = "MaskColor"
+            >CheckBox property _chkSensor_8.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_chkSensor_10"
+                ObjectType = "CheckBox"
+                PME = "MaskColor"
+            >CheckBox property _chkSensor_10.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_chkSensor_9"
+                ObjectType = "CheckBox"
+                PME = "MaskColor"
+            >CheckBox property _chkSensor_9.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "SSTab1"
+                ObjectType = "TabDlg.SSTab"
+                PME = "TabsPerRow"
+            >TabDlg.SSTab property SSTab1.TabsPerRow was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "SSTab2"
+                ObjectType = "TabDlg.SSTab"
+                PME = "TabsPerRow"
+            >TabDlg.SSTab property SSTab2.TabsPerRow was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "picBackGauge"
+                ObjectType = "PictureBox"
+                PME = "AutoRedraw"
+            >PictureBox property picBackGauge.AutoRedraw was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "pbox"
+                ObjectType = "PictureBox"
+                PME = "AutoRedraw"
+            >PictureBox property pbox.AutoRedraw was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "pbox"
+                ObjectType = "PictureBox"
+                PME = "ScaleHeight"
+            >PictureBox property pbox.ScaleHeight was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "pbox"
+                ObjectType = "PictureBox"
+                PME = "ScaleMode"
+            >PictureBox property pbox.ScaleMode was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "pbox"
+                ObjectType = "PictureBox"
+                PME = "ScaleWidth"
+            >PictureBox property pbox.ScaleWidth was not upgraded.</Issue>
+        </Section>
+        <Section Name = "MoveMemory" >
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+        </Section>
+        <Section Name = "(Declarations)" >
+            <Issue
+                Type = "Runtime"
+                Number = "1033"
+            >Lower bound of array Sensor_Array was changed from 1 to 0.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1033"
+            >Lower bound of array Buffer was changed from 1 to 0.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1033"
+            >Lower bound of array DLArray was changed from 1 to 0.</Issue>
+        </Section>
+        <Section Name = "Command1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object NoRoundFormat().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Command1.Caption.</Issue>
+        </Section>
+        <Section Name = "chkDLEnable_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2020"
+                ObjectName = "dltimer"
+                ObjectType = "Timer"
+                PME = "Interval"
+            >Timer property dltimer.Interval cannot have a value of 0.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event chkDLEnable.CheckStateChanged may fire when form is initialized.</Issue>
+        </Section>
+        <Section Name = "chkSensor_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event chkSensor.CheckStateChanged may fire when form is initialized.</Issue>
+        </Section>
+        <Section Name = "cmdGraph_Click" >
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "pbox"
+                ObjectType = "PictureBox"
+                PME = "Cls"
+            >PictureBox method pbox.Cls was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "pbox"
+                ObjectType = "PictureBox"
+                PME = "Line"
+            >PictureBox method pbox.Line was not upgraded.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                ObjectName = "pbox"
+                ObjectType = "PictureBox"
+                PME = "Line"
+            >Couldn't resolve default property of object i.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object i.</Issue>
+        </Section>
+        <Section Name = "cmdLoadGraph_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object i.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object J.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "Mid"
+            >Couldn't resolve default property of object c.</Issue>
+        </Section>
+        <Section Name = "Savetofile" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object i.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object c.</Issue>
+        </Section>
+        <Section Name = "cmdSaveGraph_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object i.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object c.</Issue>
+        </Section>
+        <Section Name = "dltimer_Timer" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object d1.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object fps.</Issue>
+        </Section>
+        <Section Name = "Form_Load" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object pbo2.DrawObject.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object CommPort.</Issue>
+        </Section>
+        <Section Name = "Set_PollTime" >
+            <Issue
+                Type = "Runtime"
+                Number = "2020"
+                ObjectName = "tPollData"
+                ObjectType = "Timer"
+                PME = "Interval"
+            >Timer property tPollData.Interval cannot have a value of 0.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2020"
+                ObjectName = "tReadICFuel"
+                ObjectType = "Timer"
+                PME = "Interval"
+            >Timer property tReadICFuel.Interval cannot have a value of 0.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2020"
+                ObjectName = "tReadICIgn"
+                ObjectType = "Timer"
+                PME = "Interval"
+            >Timer property tReadICIgn.Interval cannot have a value of 0.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2020"
+                ObjectName = "tSendDataRead"
+                ObjectType = "Timer"
+                PME = "Interval"
+            >Timer property tSendDataRead.Interval cannot have a value of 0.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2020"
+                ObjectName = "tSendDataWrite"
+                ObjectType = "Timer"
+                PME = "Interval"
+            >Timer property tSendDataWrite.Interval cannot have a value of 0.</Issue>
+        </Section>
+        <Section Name = "cConnect_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Sensor.</Issue>
+        </Section>
+        <Section Name = "cStartDatalogging_CLick" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Sensor.</Issue>
+        </Section>
+        <Section Name = "InitMsFlexGrid" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object iCounter.</Issue>
+        </Section>
+        <Section Name = "Form_Resize" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+                ObjectType = "Form"
+                PME = "Resize"
+            >Event frmDataLog.Resize may fire when form is initialized.</Issue>
+        </Section>
+        <Section Name = "Form_Unload" >
+            <Issue
+                Type = "Runtime"
+                Number = "2065"
+                ObjectName = "frmDataLog"
+                ObjectType = "Form"
+                PME = "Unload"
+            >Form event frmDataLog.Unload has a new behavior.</Issue>
+        </Section>
+        <Section Name = "mnuNG53_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Sensor.</Issue>
+        </Section>
+        <Section Name = "mnuOBD0a_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Sensor.</Issue>
+        </Section>
+        <Section Name = "mnuOBD1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Sensor.</Issue>
+        </Section>
+        <Section Name = "MSFlexGrid1_dblClick" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object EditFuelRow.</Issue>
+        </Section>
+        <Section Name = "Datalogging" >
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Sensor.</Issue>
+        </Section>
+        <Section Name = "tLogintvl_KeyUp" >
+            <Issue
+                Type = "Runtime"
+                Number = "2020"
+                ObjectName = "dltimer"
+                ObjectType = "Timer"
+                PME = "Interval"
+            >Timer property dltimer.Interval cannot have a value of 0.</Issue>
+        </Section>
+        <Section Name = "tPollData_Timer" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Sensor.</Issue>
+        </Section>
+        <Section Name = "tPollData_Timer_bak" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Sensor.</Issue>
+        </Section>
+        <Section Name = "ShowData" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object J.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Term.SelStart.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object i.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Term.SelLength.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Term.SelText.</Issue>
+        </Section>
+        <Section Name = "Plot" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object volt.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Col.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Row.</Issue>
+        </Section>
+        <Section Name = "tSendDataRead_Timer" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object K.</Issue>
+        </Section>
+        <Section Name = "tSendDataWrite_Timer" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object K.</Issue>
+        </Section>
+        <Section Name = "PopulateGridFromIC" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object J.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object K.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object L.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object M.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object N.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "tReadICFuel"
+                ObjectType = "Timer"
+                PME = "Tag"
+            >Timer property tReadICFuel.Tag was not upgraded.</Issue>
+        </Section>
+        <Section Name = "WriteValuesToGrid" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object L.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object J.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "Format"
+            >Couldn't resolve default property of object NoRoundFormat().</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object K.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "CInt"
+            >Couldn't resolve default property of object IgnitionMapBuffer().</Issue>
+        </Section>
+        <Section Name = "ReadingMaps" >
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                ObjectName = "VbStrConv"
+                ObjectType = "VbStrConv"
+                PME = "vbUnicode"
+            >Constant vbUnicode was not upgraded.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object J.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object M.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object L.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object N.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "tReadICFuel"
+                ObjectType = "Timer"
+                PME = "Tag"
+            >Timer property tReadICFuel.Tag was not upgraded.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object IgnitionMapBuffer(L + 1).</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "tReadICIgn"
+                ObjectType = "Timer"
+                PME = "Tag"
+            >Timer property tReadICIgn.Tag was not upgraded.</Issue>
+        </Section>
+        <Section Name = "tReadICFuel_Timer" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object L.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object K.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object J.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object M.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object N.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "tReadICIgn"
+                ObjectType = "Timer"
+                PME = "Tag"
+            >Timer property tReadICIgn.Tag was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "tReadICFuel"
+                ObjectType = "Timer"
+                PME = "Tag"
+            >Timer property tReadICFuel.Tag was not upgraded.</Issue>
+        </Section>
+        <Section Name = "tReadICIgn_Timer" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object L.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object K.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "tReadICIgn"
+                ObjectType = "Timer"
+                PME = "Tag"
+            >Timer property tReadICIgn.Tag was not upgraded.</Issue>
+        </Section>
+        <Section Name = "ECT" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object x.</Issue>
+        </Section>
+        <Section Name = "IAT" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object x.</Issue>
+        </Section>
+        <Section Name = "VSS" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object sHi.</Issue>
+        </Section>
+        <Section Name = "InitiLoggingGrid" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Cols.</Issue>
+        </Section>
+        <Section Name = "MSFlexGrid2_DblClick" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object EditIgnRow.</Issue>
+        </Section>
+        <Section Name = "DispProdVersion" >
+            <Issue
+                Type = "Compile"
+                Number = "2069"
+                ObjectName = "App"
+                ObjectType = "App"
+                PME = "Revision"
+            >App property App.Revision was not upgraded.</Issue>
+        </Section>
+        <Section Name = "InitHPTgrid" >
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "pbox"
+                ObjectType = "PictureBox"
+                PME = "Cls"
+            >PictureBox method pbox.Cls was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "pbox"
+                ObjectType = "PictureBox"
+                PME = "Line"
+            >PictureBox method pbox.Line was not upgraded.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                ObjectName = "pbox"
+                ObjectType = "PictureBox"
+                PME = "Line"
+            >Couldn't resolve default property of object i.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object i.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object J.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "H:\EcuControl 5.6\frmModFuel.frm"
+        NewPath = "g:\EcuControl 5.6\EcuControl5.NET\frmModFuel.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "Command1_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object address.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object EditFuelRow.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object NewValue.</Issue>
+        </Section>
+        <Section Name = "Form_Load" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object EditFuelRow.</Issue>
+        </Section>
+        <Section Name = "Form_Unload" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object EditFuelRow.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2065"
+                ObjectName = "frmModFuel"
+                ObjectType = "Form"
+                PME = "Unload"
+            >Form event frmModFuel.Unload has a new behavior.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "H:\EcuControl 5.6\frmModIgn.frm"
+        NewPath = "g:\EcuControl 5.6\EcuControl5.NET\frmModIgn.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "cmdOk_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object address.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object EditIgnRow.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object NewValue.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object IgnitionMapBuffer(address + 1).</Issue>
+        </Section>
+        <Section Name = "Form_Load" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object EditIgnRow.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object IgnValue.</Issue>
+        </Section>
+        <Section Name = "Form_Unload" >
+            <Issue
+                Type = "Runtime"
+                Number = "2065"
+                ObjectName = "frmModIgn"
+                ObjectType = "Form"
+                PME = "Unload"
+            >Form event frmModIgn.Unload has a new behavior.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "H:\EcuControl 5.6\frmProps.frm"
+        NewPath = "g:\EcuControl 5.6\EcuControl5.NET\frmProps.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "(Layout)" >
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "cmdOK"
+                ObjectType = "CommandButton"
+                PME = "MaskColor"
+            >CommandButton property cmdOK.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_optEcho_0"
+                ObjectType = "OptionButton"
+                PME = "MaskColor"
+            >OptionButton property _optEcho_0.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_optEcho_1"
+                ObjectType = "OptionButton"
+                PME = "MaskColor"
+            >OptionButton property _optEcho_1.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_optFlow_0"
+                ObjectType = "OptionButton"
+                PME = "MaskColor"
+            >OptionButton property _optFlow_0.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_optFlow_1"
+                ObjectType = "OptionButton"
+                PME = "MaskColor"
+            >OptionButton property _optFlow_1.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_optFlow_2"
+                ObjectType = "OptionButton"
+                PME = "MaskColor"
+            >OptionButton property _optFlow_2.MaskColor was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "_optFlow_3"
+                ObjectType = "OptionButton"
+                PME = "MaskColor"
+            >OptionButton property _optFlow_3.MaskColor was not upgraded.</Issue>
+        </Section>
+        <Section Name = "LoadPropertySettings" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Echo.</Issue>
+        </Section>
+        <Section Name = "cmdOk_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object Echo.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object NewPort.</Issue>
+        </Section>
+        <Section Name = "optEcho_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event optEcho.CheckedChanged may fire when form is initialized.</Issue>
+        </Section>
+        <Section Name = "optFlow_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event optFlow.CheckedChanged may fire when form is initialized.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "H:\EcuControl 5.6\General.bas"
+        NewPath = "g:\EcuControl 5.6\EcuControl5.NET\General.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "(Declarations)" >
+            <Issue
+                Type = "Runtime"
+                Number = "1033"
+            >Lower bound of array OutBuffer was changed from 1 to 0.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1033"
+            >Lower bound of array FuelMapBuffer was changed from 1 to 0.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1033"
+            >Lower bound of array IgnitionMapBuffer was changed from 1 to 0.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1033"
+            >Lower bound of array Multipliers was changed from 1 to 0.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1033"
+            >Lower bound of array EcuSensor was changed from 1 to 0.</Issue>
+        </Section>
+        <Section Name = "ReadMemory" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object DisplayFilter.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object J.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object K.</Issue>
+        </Section>
+        <Section Name = "WriteMemory" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object DisplayFilter.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object J.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object K.</Issue>
+        </Section>
+        <Section Name = "NoRoundFormat" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object NoRoundFormat.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "H:\EcuControl 5.6\pcMemDC.cls"
+        NewPath = "g:\EcuControl 5.6\EcuControl5.NET\pcMemDC.vb"
+        FileType = "Class Module"
+        Upgraded = "True"
+    >
+        <Section Name = "CreateDCAsNull" >
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+        </Section>
+        <Section Name = "CreateDC" >
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+        </Section>
+        <Section Name = "GetObjectAPI" >
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+        </Section>
+        <Section Name = "Draw" >
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                PME = "vbSrcCopy"
+            >Constant vbSrcCopy was not upgraded.</Issue>
+        </Section>
+        <Section Name = "CreateFromPicture" >
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "sPic"
+                ObjectType = "Picture"
+                PME = "handle"
+            >Picture property sPic.handle was not upgraded.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object tB.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                PME = "vbSrcCopy"
+            >Constant vbSrcCopy was not upgraded.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "H:\EcuControl 5.6\cProgressBar.cls"
+        NewPath = "g:\EcuControl 5.6\EcuControl5.NET\cProgressBar.vb"
+        FileType = "Class Module"
+        Upgraded = "True"
+    >
+        <Section Name = "InvalidateRect" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "CreateRectRgnIndirect" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "GetClientRect" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "FillRect" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "InflateRect" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "OffsetRect" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "MoveToEx" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure POINTAPI may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "DrawEdge" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "DrawText" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "DrawThemeBackground" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "GetThemeBackgroundContentRect" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "DrawThemeText" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "DrawThemeIcon" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "DrawThemeEdge" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure RECT may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "Draw" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object m_obj.hWnd.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object m_obj.hDC.</Issue>
+        </Section>
+        <Section Name = "DrawToDC" >
+            <Issue
+                Type = "Compile"
+                Number = "1002"
+            >LSet cannot assign one type to another.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                PME = "vbSrcCopy"
+            >Constant vbSrcCopy was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "1040"
+                PME = "StrPtr"
+            >StrPtr function is not supported.</Issue>
+        </Section>
+        <Section Name = "TileArea" >
+            <Issue
+                Type = "Compile"
+                Number = "2070"
+                PME = "vbSrcCopy"
+            >Constant vbSrcCopy was not upgraded.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "H:\EcuControl 5.6\frmTrannyList.frm"
+        NewPath = "g:\EcuControl 5.6\EcuControl5.NET\frmTrannyList.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "(Layout)" >
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "txtNotes"
+                ObjectType = "TextBox"
+            >TextBox property txtNotes.DataSource was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "txtFinal"
+                ObjectType = "TextBox"
+            >TextBox property txtFinal.DataSource was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "txt5th"
+                ObjectType = "TextBox"
+            >TextBox property txt5th.DataSource was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "txt4th"
+                ObjectType = "TextBox"
+            >TextBox property txt4th.DataSource was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "txt3rd"
+                ObjectType = "TextBox"
+            >TextBox property txt3rd.DataSource was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "txt2nd"
+                ObjectType = "TextBox"
+            >TextBox property txt2nd.DataSource was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "txt1st"
+                ObjectType = "TextBox"
+            >TextBox property txt1st.DataSource was not upgraded.</Issue>
+        </Section>
+        <Section Name = "cboModel_Change" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event cboModel.TextChanged may fire when form is initialized.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "2074"
+            >ComboBox event cboModel.Change was upgraded to cboModel.TextChanged which has a new behavior.</Issue>
+        </Section>
+        <Section Name = "cboModel_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event cboModel.SelectedIndexChanged may fire when form is initialized.</Issue>
+        </Section>
+        <Section Name = "chkManual_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2075"
+            >Event chkManual.CheckStateChanged may fire when form is initialized.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "H:\EcuControl 5.6\basRegistry.bas"
+        NewPath = "g:\EcuControl 5.6\EcuControl5.NET\basRegistry.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "RegQueryValueEx" >
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+        </Section>
+        <Section Name = "RegSetValueEx" >
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+        </Section>
+        <Section Name = "regQuery_A_Key" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object regQuery_A_Key.</Issue>
+        </Section>
+        <Section Name = "regCreate_Key_Value" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "Trim"
+            >Couldn't resolve default property of object varRegData.</Issue>
+        </Section>
+        <Section Name = "Test" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object strKeyQuery.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object regQuery_A_Key().</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+
